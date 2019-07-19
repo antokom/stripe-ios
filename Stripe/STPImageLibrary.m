@@ -86,19 +86,19 @@
 }
 
 + (UIImage *)largeCardFrontImage {
-    return [self safeImageNamed:@"stp_card_form_front" templateIfAvailable:YES];
+    return [self safeImageNamed:@"stp_card_form_front" templateIfAvailable:NO];
 }
 
 + (UIImage *)largeCardBackImage {
-    return [self safeImageNamed:@"stp_card_form_back" templateIfAvailable:YES];
+    return [self safeImageNamed:@"stp_card_form_back" templateIfAvailable:NO];
 }
 
 + (UIImage *)largeCardAmexCVCImage {
-    return [self safeImageNamed:@"stp_card_form_amex_cvc" templateIfAvailable:YES];
+    return [self safeImageNamed:@"stp_card_form_amex_cvc" templateIfAvailable:NO];
 }
 
 + (UIImage *)largeShippingImage {
-    return [self safeImageNamed:@"stp_shipping_form" templateIfAvailable:YES];
+    return [self safeImageNamed:@"stp_shipping_form" templateIfAvailable:NO];
 }
 
 + (UIImage *)safeImageNamed:(NSString *)imageName
